@@ -1,0 +1,7 @@
+.menu {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 2px 0px 20px grey;
+}

@@ -1,0 +1,29 @@
+.menuItemsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuItemsContainer h1 {
+  font-size: 5vh;
+}
+
+.menuItemsContainer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menuItemsContainer li {
+  font-size: 2.8vh;
+  /* margin-top: 2vh; */
+  padding: 1.5vh;
+}
+
+.selectedItem {
+  border-radius: 1vh;
+  background-color: #025e68;
+  color: white;
+}

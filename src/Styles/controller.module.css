@@ -1,0 +1,83 @@
+.controllerWrapper {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.controller {
+  margin: 4%;
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  cursor: default;
+}
+
+.controller hr {
+  border: 2px solid red;
+}
+
+.actionButton {
+  position: absolute;
+  height: 35%;
+  width: 35%;
+  background-color: lightgray;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.controlButton {
+  border: none;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+.controlButton img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.nextButton {
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.prevButton {
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+.playButton {
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menuButton {
+  position: absolute;
+  height: 20%;
+  width: 30%;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bolder;
+}

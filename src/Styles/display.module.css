@@ -1,0 +1,11 @@
+.display {
+    height: 50%;
+    width: auto;
+    margin: 30px 12px 12px 12px;
+    background-image:  url("../Images/wallpaper.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    border: 4px solid black;
+    
+}
+

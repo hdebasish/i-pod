@@ -1,0 +1,12 @@
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+  }
